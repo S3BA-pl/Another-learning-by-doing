@@ -322,7 +322,7 @@ update_tech("inserter-capacity-bonus-5", {"inserter-capacity-bonus-4"}, {type="c
 update_tech("inserter-capacity-bonus-6", {"inserter-capacity-bonus-5"}, {type="craft-item", item="bulk-inserter", count=3000})
 update_tech("inserter-capacity-bonus-7", {"inserter-capacity-bonus-6","processing-unit"}, {type="craft-item", item="bulk-inserter", count=4000})
 
-update_tech("mining-productivity-1", {"advanced-circuit"}, {type="craft-item", item="iron-ore", count=1000000})
+update_tech("mining-productivity-1", {"advanced-circuit"}, {type="craft-item", item="iron-ore", count=500000})
 update_tech("mining-productivity-2", {"mining-productivity-1"}, {type="craft-item", item="copper-ore", count=1000000})
 update_tech("mining-productivity-3", {"mining-productivity-2","productivity-module"}, {type="craft-item", item="stone", count=1000000})
 update_tech("mining-productivity-4", {"mining-productivity-3","rocket-silo"}, {type="craft-item", item="iron-ore", count=10000000})
